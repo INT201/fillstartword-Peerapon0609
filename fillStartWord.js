@@ -11,7 +11,7 @@ function fillStartWord(startWord, word) {
     case word===null:
       return undefined
       break;
-    case startWord===undefined:
+    case word===undefined:
       return undefined
       break;
   
