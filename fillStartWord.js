@@ -7,8 +7,11 @@ function fillStartWord(startWord, word) {
   else if(startWord===word){
     return word
   }
-  else if(startWord===word){
-    return word
+  else if(word===null){
+    return undefined
+  }
+  else if(word===undefined){
+    return undefined
   }
 }
 module.exports = fillStartWord
