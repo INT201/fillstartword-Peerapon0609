@@ -7,7 +7,7 @@ function fillStartWord(startWord, word) {
   else if(startWord!=word){
     return startWord+word
   }
-  else if(startWord==word){
+  else if(word.includes(startWord)){
     return word
   }
 }
